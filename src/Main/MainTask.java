@@ -33,7 +33,7 @@ public class MainTask {
 	public static void main(String args[]) throws Exception
 	{
 		PersonsOpertions persons_opertions=null;
-		System.out.println("Select File Type: 1-Json 2-CSV");
+		System.out.println("Select File Type: \n1-Json\n2-CSV");
 		Scanner Sc = new Scanner(System.in);
 		String FileType=Sc.nextLine();
 		if(FileType.equals("1"))
