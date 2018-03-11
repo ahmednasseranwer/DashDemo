@@ -5,7 +5,7 @@ A CRUD command line tool to store, sort and filter data about users in JSON, or 
 ## Installation and Set Up
 
 Prerequisites:
-* [Eclipse] 
+* Eclipse IDE
 	
 Install the required packages:
 ```
@@ -17,7 +17,7 @@ git clone https://github.com/ahmednasseranwer/PersonOpertionsFile/tree/master/ja
 Open "ProposedTests.docx", Enter sequence of input 
 
 ### coding style tests
-	we test cli Output and Files Update
+	Test cli Output and Files Update
 
 ```
 [[AddPerson]]
