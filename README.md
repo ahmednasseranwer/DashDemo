@@ -5,35 +5,75 @@ A CRUD command line tool to store, sort and filter data about users in JSON, or 
 ## Installation and Set Up
 
 Prerequisites:
+
 * Eclipse IDE
-	
-Install the required packages:
+* jdk 
+ 
+Install required packages to project libraries
 ```
-git clone https://github.com/ahmednasseranwer/PersonOpertionsFile/tree/master/jar
+json-simple-1.1.jar
+jackson.all-1.9.0
+opencsv-4.0.jar
+commons-csv-1.1.jar
+gson-2.2.2.jar
+```
+All this packages on Folder DashDemo/jar or can clone it  
+```
+git clone https://github.com/ahmednasseranwer/DashDemo/tree/master/jar
 ```
 
 ## Running the tests
 
-Open "ProposedTests.docx", Enter sequence of input 
+In "ProposedTests.docx", Check table #1 that help to run program
 
+### Select File Type :
+```
+Select File Type: 
+1-Json
+2-CSV	 
+=> 1
+```
+### Select Opertion AddPerson
+```
+Select your Choice 
+ 1-Add Person 
+ 2-Update Person's information 
+ 3-List All Persons 
+ 4-Delete Specific Person 
+ 5-Filter by any Field 
+ 6-Sort on any Field
+=> 1
+Enter Person's First Name: 
+Ahmed
+Enter Person's Last Name: 
+Nasser
+Enter Person's Title: 
+Software Enginner  
+Enter Person's Phone: 
+012
+Enter Person's Age: 
+24
+Enter Person's Mail: 
+ahmednasser@gmail
+New Person is added with name Ahmed Nasser to JsonFile
+```
 ### coding style tests
-	Test cli Output and Files Update
+In "ProposedTests.docx", Check table #2 that help to test program
 
+### Select Opertion List All Persons 
 ```
-[[AddPerson]]
-	firstName="Ahmed"
-	lastName="Nasser"
-	title="Developer"
-	phone="01141612615
-	age="24"
-	mail="ahmednasser@gmail "
-Tests 
-	cli output : New Person is added with name Ahmed Nasser to JsonFile
-	"JsonFile.json" update {"persons":[{"firstName":"Ahmed","lastName":"Nasser","title":"Dev","phone":"012","age":"24","mail":"ahmednasser@gmail"}]}
-	"CSVFile.csv" update 
-                      firstName,lastName,title,phone,age,mail  
-	                    Ahmed,Nasser,Dev,012,24,ahmednasser@gmail
+[[3-List All Persons]]
 ```
+### Output Command Line Interface in JsonFile
+```
+File is Empty
+```
+
+### Output Command Line Interface in JCSVFile
+```
+File is Empty
+```
+
 
 ## Authors 
 
